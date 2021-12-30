@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activity.Dashboard"
+    android:orientation="vertical"
+    tools:showIn="@layout/app_bar_dashboard">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobiles"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="25sp"/>
+        <ImageView
+            android:id="@+id/showmobile"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:text="Show Mobiles"
+            android:src="@drawable/mobile_pic"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Headphones"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="25sp"/>
+
+        <ImageView
+            android:id="@+id/earphones"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="10dp"
+            android:text="Show Mobiles"
+            android:src="@drawable/headphones"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

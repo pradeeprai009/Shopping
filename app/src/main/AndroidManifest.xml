@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ecomapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.CartList"></activity>
+        <activity android:name=".Activity.Delivery" />
+        <activity
+            android:name=".Activity.Dashboard"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".User_details.UserAccountDetails" />
+        <activity android:name=".User_details.AfterLoginUser" />
+        <activity android:name=".User_details.UserForgetPassword" />
+        <activity android:name=".User_details.UserLogin" />
+        <activity android:name=".Activity.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".User_details.UserRegistration" />
+        <activity android:name=".ForgetPassword.ForgetPassword" />
+        <activity android:name=".Navigatore_Activity.AddProducts" />
+        <activity android:name=".Navigatore_Activity.MyAccount" />
+        <activity android:name=".Activity.ProductClicked" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name=".Navigatore_Activity.AdminSupport"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activity.RegistrationAdmin" />
+        <activity android:name=".Activity.Login" />
+        <activity
+            android:name=".Activity.ProductList"
+            android:label="Product List"
+            android:parentActivityName=".Navigatore_Activity.AddProducts" />
+    </application>
+
+</manifest>

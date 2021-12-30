@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "154861641155",
+    "firebase_url": "https://ecomapp-83ee3.firebaseio.com",
+    "project_id": "ecomapp-83ee3",
+    "storage_bucket": "ecomapp-83ee3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154861641155:android:ac50ae3eff8bc9c6",
+        "android_client_info": {
+          "package_name": "com.example.ecomapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154861641155-p022si9ak40qj96urkapar0n9qkk7968.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ecomapp",
+            "certificate_hash": "81b08a5642c2e9c2cc97b828c540fdf8e6f2663a"
+          }
+        },
+        {
+          "client_id": "154861641155-t6c5kft4vofvs45qpe97qic5mrnv96u0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDX2KEoMxek5IWDIj1_sdXiHeCnCMJuC_0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154861641155-t6c5kft4vofvs45qpe97qic5mrnv96u0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

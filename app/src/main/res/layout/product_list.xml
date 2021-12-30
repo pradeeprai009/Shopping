@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e1e1e1">
+
+        <GridView
+        android:id="@+id/ListView"
+        android:layout_width="wrap_content"
+        android:layout_height="550dp"
+        android:layout_margin="1dp"
+        android:padding="15dp"
+        android:numColumns="2"
+        android:scrollbars="vertical"
+        android:gravity="center"
+        android:divider="@color/colorPrimary"
+        />
+         <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:background="@color/cardview_shadow_start_color"
+        android:layout_gravity="right|bottom"
+        android:id="@+id/Cart"
+        android:text="View Shopping Cart">
+
+</Button>
+
+</LinearLayout>

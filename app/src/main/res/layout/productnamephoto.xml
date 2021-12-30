@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_margin="10dp"
+    >
+    <LinearLayout
+        android:id="@+id/thumbnail2"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="7dip"
+        >
+
+        <ImageView
+            android:id="@+id/phone_image2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/images_logo"
+            />
+        <TextView
+            android:id="@+id/name_mobile2"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:text="Name"
+            android:textAlignment="center"
+            android:textColor="#040404"
+            android:textSize="15sp"
+            android:typeface="sans" />
+        <TextView
+            android:id="@+id/price_mobile2"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+            android:text="Rs. Price"
+            android:textColor="#1d1d1d"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="2dp"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/product_list"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="7dp"
+        >
+        <LinearLayout
+            android:id="@+id/thumbnail"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="7dip"
+            >
+
+            <ImageView
+                android:id="@+id/phone_image"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="28dp"
+                android:src="@drawable/images_logo"
+                />
+
+            <TextView
+                android:id="@+id/name_mobile"
+                android:layout_width="130dp"
+                android:layout_height="30dp"
+                android:layout_alignParentTop="true"
+                android:text="Name"
+                android:textAlignment="center"
+                android:textColor="#040404"
+                android:layout_marginLeft="15dp"
+                android:textSize="15sp"
+                android:typeface="sans" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="20dp"
+                android:id="@+id/rs"
+                android:textAlignment="textEnd"
+                android:layout_marginLeft="25dp"
+                android:layout_height="30dp"
+                android:hint="@string/Rs"
+                android:textColorHint="#000000"
+                android:gravity="end" />
+            <TextView
+                android:id="@+id/price_mobile"
+                android:layout_width="130dp"
+                android:layout_height="30dp"
+                android:textAlignment="textStart"
+                android:layout_marginLeft="2dp"
+                android:text="Rs. Price"
+                android:textColor="#1d1d1d"
+                android:textSize="15sp"
+                android:gravity="start" />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textAlignment="center"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/details"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:text="Details"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
